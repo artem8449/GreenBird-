@@ -4,7 +4,10 @@ using UnityEngine.SceneManagement;
 public class GreenBird : MonoBehaviour
 {
 	private Vector3 _initialPosition;
-	[SerializeField] private float _launchPower = 500; 
+	private bool _birdWasLaunch;
+	private float _timeSittingAround;
+	[SerializeField] private float _launchPower = 500;
+
 	private void Awake()
 	{
 		_initialPosition = transform.position;
@@ -12,29 +15,22 @@ public class GreenBird : MonoBehaviour
 
 	private void Update()
 	{
-		if (transform.position.y > 4.24)
+		if (_birdWasLaunch &&
+		    GetComponent<Rigidbody2D>().velocity.magnitude <= 0.1)
+		{
+			_timeSittingAround += Time.deltaTime;
+		}
+
+		if (transform.position.y > 4.24 ||
+		    transform.position.y < -4.5||
+		    transform.position.x > 8.89||
+		    transform.position.x < -8.96||
+		    _timeSittingAround > 3)
 		{
 			string currentSceneName = SceneManager.GetActiveScene().name;
 			SceneManager.LoadScene(currentSceneName);
 		}
 		
-		if (transform.position.y < -4.24)
-		{
-			string currentSceneName = SceneManager.GetActiveScene().name;
-			SceneManager.LoadScene(currentSceneName);
-		}
-		
-		if (transform.position.x > 8.89)
-		{
-			string currentSceneName = SceneManager.GetActiveScene().name;
-			SceneManager.LoadScene(currentSceneName);
-		}
-		
-		if (transform.position.x < -8.96)
-		{
-			string currentSceneName = SceneManager.GetActiveScene().name;
-			SceneManager.LoadScene(currentSceneName);
-		}
 	}
 
 	private void OnMouseDown()
@@ -48,6 +44,7 @@ public class GreenBird : MonoBehaviour
 		Vector2 directionToInitialPosition = _initialPosition - transform.position;
 		GetComponent<Rigidbody2D>().AddForce(directionToInitialPosition * _launchPower);
 		GetComponent<Rigidbody2D>().gravityScale = 1;
+		_birdWasLaunch = true;
 	}
 
 	private void OnMouseDrag()
