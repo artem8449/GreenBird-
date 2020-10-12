@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="56e96683-99c7-4d01-872e-f20ff18bbc3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/LevelController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GreenBird.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -22,6 +41,7 @@
       <list>
         <option value="$PROJECT_DIR$/GreenBird.cs" />
         <option value="$PROJECT_DIR$/Enemy.cs" />
+        <option value="$PROJECT_DIR$/LevelController.cs" />
       </list>
     </option>
   </component>
@@ -45,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602493306155</updated>
       <workItem from="1602493320472" duration="13137000" />
-      <workItem from="1602517838928" duration="588000" />
+      <workItem from="1602517838928" duration="8006000" />
     </task>
     <servers />
   </component>
@@ -54,6 +74,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
