@@ -26,8 +26,8 @@ public class GreenBird : MonoBehaviour
 
 		if (transform.position.y > 4.24 ||
 		    transform.position.y < -4.5||
-		    transform.position.x > 10||
-		    transform.position.x < -10||
+		    transform.position.x > 20||
+		    transform.position.x < -20||
 		    _timeSittingAround > 3)
 		{
 			string currentSceneName = SceneManager.GetActiveScene().name;
