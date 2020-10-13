@@ -6,7 +6,7 @@ public class LevelController : MonoBehaviour
 {
     private static int _nextLevelIndex = 1;
     private static int _maxLevelIndex = 3;
-    private float _timeDelay = 3;
+    private float _timeDelay = 2;
     private float _timeElapced;
     private Enemy[] _enemies;
 

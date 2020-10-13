@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a837106-11d7-43f0-82f8-a256ebc6bd34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/.idea/.idea.Assets.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.idea/.idea.Assets.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GreenBird.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GreenBird.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DontDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DontDestroy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
@@ -43,8 +42,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/GreenBird.cs" />
+        <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602579356235</updated>
-      <workItem from="1602579371677" duration="5699000" />
+      <workItem from="1602579371677" duration="8293000" />
     </task>
     <servers />
   </component>
