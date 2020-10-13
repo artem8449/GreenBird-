@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
 
     if (collision.contacts[0].normal.y < -0.5)
     {
-	  Instantiate(_cloudParticlePrefab, transform.position, Quaternion.identity);
+      Instantiate(_cloudParticlePrefab, transform.position, Quaternion.identity);
       Destroy(gameObject);
     }
 

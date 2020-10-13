@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using static UnityEngine.GameObject;
 
 public class GreenBird : MonoBehaviour
 {
+	private Enemy[] _enemies;
 	private Vector3 _initialPosition;
 	private bool _birdWasLaunch;
 	private float _timeSittingAround;
@@ -12,6 +14,7 @@ public class GreenBird : MonoBehaviour
 	{
 		_initialPosition = transform.position;
 	}
+	
 
 	private void Update()
 	{
@@ -23,12 +26,14 @@ public class GreenBird : MonoBehaviour
 		{
 			_timeSittingAround += Time.deltaTime;
 		}
+		
 
-		if (transform.position.y > 4.24 ||
+		if ((transform.position.y > 4.24 ||
 		    transform.position.y < -4.5||
 		    transform.position.x > 20||
 		    transform.position.x < -20||
-		    _timeSittingAround > 3)
+		    _timeSittingAround > 3||
+		    (!_birdWasLaunch && transform.position.x > _initialPosition.x + 1)))
 		{
 			string currentSceneName = SceneManager.GetActiveScene().name;
 			SceneManager.LoadScene(currentSceneName);
@@ -40,6 +45,7 @@ public class GreenBird : MonoBehaviour
 	{
 		GetComponent<SpriteRenderer>().color = Color.red;
 		GetComponent<LineRenderer>().enabled = true;
+		
 	}
 
 	private void OnMouseUp()
