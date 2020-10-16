@@ -10,7 +10,7 @@ public class LevelController : MonoBehaviour
     public GameObject greenBird;
     private Vector3 _birdPosition;
     private static int _nextLevelIndex = 1;
-    private static int _maxLevelIndex = 3;
+    private static int _maxLevelIndex = 4;
     private float _timeDelay = 2;
     private float _timeElapced;
     private Enemy[] _enemies;
@@ -23,6 +23,9 @@ public class LevelController : MonoBehaviour
 
         private void Start()
         {
+            String nameScene = SceneManager.GetActiveScene().name;
+            nameScene = nameScene.Substring(nameScene.Length - 1);
+            _nextLevelIndex = int.Parse(nameScene);
             changeLevel.text = "";
      
         }
