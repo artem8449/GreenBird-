@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a837106-11d7-43f0-82f8-a256ebc6bd34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DontDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DontDestroy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GreenBird.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GreenBird.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NewAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewAudioMixer.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetVolume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SetVolume.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button_script.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button_script.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +42,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/DontDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../unity/2019.4.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/button_script.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/button_script.cs" />
+        <option value="$PROJECT_DIR$/Assets/GreenBird.cs" />
+        <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/SetVolume.cs" />
-        <option value="$PROJECT_DIR$/Assets/button_script.cs" />
-        <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/GreenBird.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +97,8 @@
       <updated>1602579356235</updated>
       <workItem from="1602579371677" duration="12086000" />
       <workItem from="1602597435226" duration="6617000" />
-      <workItem from="1602782434723" duration="6530000" />
+      <workItem from="1602782434723" duration="15346000" />
+      <workItem from="1602828060557" duration="3076000" />
     </task>
     <servers />
   </component>

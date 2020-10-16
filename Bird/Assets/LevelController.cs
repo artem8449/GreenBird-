@@ -15,7 +15,7 @@ public class LevelController : MonoBehaviour
     private float _timeElapced;
     private Enemy[] _enemies;
 
-        private void OnEnable()
+    private void OnEnable()
     {
         _enemies = FindObjectsOfType<Enemy>();
         
@@ -24,6 +24,7 @@ public class LevelController : MonoBehaviour
         private void Start()
         {
             changeLevel.text = "";
+     
         }
 
         void Update()

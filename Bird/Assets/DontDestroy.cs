@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class DontDestroy : MonoBehaviour
 {
+    public static DontDestroy DS;
     private static int  status = 0; 
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
+        DS = this;
     }
 
     private void Start()
