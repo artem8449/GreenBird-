@@ -32,6 +32,11 @@ public class LevelController : MonoBehaviour
 
         void Update()
         {
+            if (Input.GetKey("escape")) 
+            {
+                Application.Quit();   
+            }
+            
             _birdPosition = greenBird.transform.position;
             _birdPosition.y += _birdPosition.y + 5;
             changeLevel.transform.position = _birdPosition;
