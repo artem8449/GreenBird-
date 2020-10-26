@@ -19,20 +19,28 @@ public class SetVolume : MonoBehaviour, IPointerClickHandler
    void Start()
    {
        back = FindObjectOfType<AudioSource>();
+       if (back.mute)
+       {
+           btn.image.sprite = offSprite;
+       }
+       else
+       {
+           btn.image.sprite = onSptite;  
+       }
    }
 
    
 
    private void SetLevel()
    {
-       on = !on;
-       if (!on)
+       back.mute = !back.mute;
+       if (back.mute)
        {
            btn.image.sprite = offSprite;
        }
        else btn.image.sprite = onSptite;
 
-       back.mute = !back.mute;
+       
 
    }
 

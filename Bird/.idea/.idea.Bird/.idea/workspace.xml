@@ -22,9 +22,37 @@
     <list default="true" id="8a837106-11d7-43f0-82f8-a256ebc6bd34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bird/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cloud Particles .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cloud Particles .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetVolume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SetVolume.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Cinemachine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Cinemachine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.Animation.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.Animation.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.Animation.Triangle.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.Animation.Triangle.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.Common.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.Common.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.PixelPerfect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.PixelPerfect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.Mathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.Mathematics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/Managed/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/level1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/level2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/level3" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/level3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/level4" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/level4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets0.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets1.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets2.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets3.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets3.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets4.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bird_Data/sharedassets4.assets" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/button_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GreenBird.cs" />
         <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/SetVolume.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SetVolume.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +130,9 @@
       <workItem from="1602597435226" duration="6617000" />
       <workItem from="1602782434723" duration="15346000" />
       <workItem from="1602828060557" duration="5149000" />
+      <workItem from="1602973573634" duration="446000" />
+      <workItem from="1603116564358" duration="1252000" />
+      <workItem from="1603736206422" duration="398000" />
     </task>
     <servers />
   </component>
